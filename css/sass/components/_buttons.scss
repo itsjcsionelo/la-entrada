@@ -1,0 +1,105 @@
+.navbar--signup {
+    order: 3;
+    background: c(primary);
+    padding: 0 2rem;
+    padding-bottom: .2rem;
+    border-radius: .6rem;
+    transition: all .2s;
+
+    &:hover {
+        background: c(secondary);
+    }
+}
+
+.login--forgot {
+    cursor: pointer;
+}
+
+.login--options__social {
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 3rem;
+
+    * {
+        cursor: pointer;
+    }
+
+    @include small {
+        width: 70%;
+        margin: auto;
+        margin-bottom: 3rem;
+    }
+
+    @include large {
+        display: none;
+    }
+}
+
+.login--options__social-alt {
+    display: none;
+
+    @include large {
+        display: grid;
+        width: 45%;
+        padding: 1.2rem;
+
+        div {
+            display: flex;
+            align-items: center;
+            justify-content: flex-start;
+            border-radius: .6rem;
+            padding: 1.2rem;
+            width: 100%;
+            border: solid .1rem c(secondary);
+            cursor: pointer;
+
+            &>* {
+                padding-left: 2rem;
+            }
+
+            &:not(:nth-child(3)) {
+                margin-bottom: .8rem;
+            }
+        }
+    }
+}
+
+.login--options-form-submit {
+    border: none;
+    border-radius: .6rem;
+    padding: 1.3rem;
+    width: 100%;
+
+    @include small {
+        width: 70%;
+    }
+
+    @include large {
+        width: 100%;
+    }
+}
+
+.login--options-form-submit {
+    margin-bottom: 1.5rem;
+    position: relative;
+    background: linear-gradient(to bottom,
+            c(primary),
+            c(secondary));
+
+    &::after {
+        content: '\f061';
+        position: absolute;
+        right: 2rem;
+        transition: all .2s;
+    }
+
+    &:hover {
+        &::after {
+            right: 2.5rem;
+        }
+    }
+
+    @include large {
+        margin: 0;
+    }
+}

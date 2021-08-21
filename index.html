@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="App Description...">
+  <meta name="robots" content="index, follow">
+
+  <link rel="stylesheet" href="./css/sass/main.css">
+  <link rel="icon" href="./assets/img/favicon.png" type="image/x-icon">
+
+  <title>La Entrada</title>
+
+</head>
+
+<body>
+
+  <nav class="navbar">
+    <h3 class="navbar--logo">La Entrada.</h3>
+    <ul class="navbar--links">
+      <li class="navbar--links-about">About</li>
+      <li class="navbar--links-services">Services</li>
+      <li class="navbar--links-products">Products</li>
+    </ul>
+    <i class="navbar--more fas fa-bars"></i>
+    <i class="navbar--search fas fa-search"></i>
+    <button class="navbar--signup">Sign up</button>
+  </nav>
+
+  <main class="login">
+    <h1 class="login--title">Login to Your Account</h1>
+    <h4 class="login--desc">Discover new skills, meet passionate teachers and become a part of the most helpful community of creatives in the world.</h4>
+
+    <section class="login--options">
+      <form class="login--options-form" onsubmit="return false;">
+        <input type="text" class="login--options-form-email" placeholder="Teacher / Student ID">
+        <input type="password" class="login--options-form-pass" placeholder="8 Digit Pin" maxlength="8">
+        <button class="login--options-form-submit">Log In to Your Account</button>
+      </form>
+
+      <hr>
+
+      <section class="login--options__social">
+        <i class="login--options__social-google fab fa-google"></i>
+        <i class="login--options__social-facebook fab fa-facebook-f"></i>
+        <i class="login--options__social-apple fab fa-apple"></i>
+      </section>
+
+      <section class="login--options__social-alt">
+        <div class="login--options__social-alt-google">
+          <i class=" fab fa-google"></i>
+          <h4>Sign in with Google</h4>
+        </div>
+        <div class="login--options__social-alt-facebook">
+          <i class="fab fa-facebook-f"></i>
+          <h4>Sign in with Facebook</h4>
+        </div>
+        <div class="login--options__social-alt-apple">
+          <i class="fab fa-apple"></i>
+          <h4>Sign in with Apple</h4>
+        </div>
+      </section>
+
+    </section>
+
+    <h5 class="login--forgot">Forgot Password?</h5>
+  </main>
+
+  <footer class="privacy">
+    <h5 class="privacy--policy">Privacy Policy</h5>
+    <h5 class="privacy--copyright">Copyright&#64;La Entrada 2021</h5>
+  </footer>
+
+  <script src="./app.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,63 @@
+.login {
+    display: grid;
+    place-content: center;
+    padding: 0 4rem;
+    overflow: hidden;
+
+    &--desc {
+        margin: auto;
+        margin-bottom: 3rem;
+        width: 80vw;
+
+        @include small {
+            width: 70vw;
+        }
+
+        @include medium {
+            width: 60vw;
+        }
+
+        @include large {
+            width: 50vw;
+        }
+    }
+
+    &--options {
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+
+        @include large {
+            flex-direction: row;
+            align-items: center;
+            width: 60vw;
+        }
+
+        &-form {
+            @include large {
+                padding: 1.2rem;
+                display: flex;
+                flex-direction: column;
+                width: 45%;
+            }
+        }
+
+        hr {
+            height: .1rem;
+            width: 2.5rem;
+            margin-bottom: 3rem;
+
+            @include large {
+                margin-top: 3rem;
+                transform: rotate(-70deg);
+            }
+        }
+    }
+
+    &--forgot {
+        @include large {
+            margin-top: 3rem;
+        }
+    }
+}

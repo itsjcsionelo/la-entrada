@@ -1,0 +1,13 @@
+.cafe24-publisher {}
+
+body {
+    background: c(dark);
+    display: grid;
+    grid-template-rows: .1fr 1fr .1fr;
+
+    .navbar,
+    .privacy {
+        display: flex;
+        align-items: center;
+    }
+}
