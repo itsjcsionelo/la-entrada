@@ -1,9 +1,6 @@
 # La Entrada
-Cafe24 Assessment Exam, Question #4.
 
-Preview: https://ultraclean.netlify.app/
-
-#### This is a brand new login page as per client's request, consists:
+#### Cafe24 Assessment Exam, Question #4. Brand new Login Page as per client's request, consists:
 
 <table style="width: 100%; border: 0">
  <tr>
@@ -22,3 +19,5 @@ Preview: https://ultraclean.netlify.app/
     <th colspan="2">✔ Icons</th>
  </tr>
 </table>
+
+Preview: https://ultraclean.netlify.app/
