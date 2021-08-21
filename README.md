@@ -25,15 +25,12 @@
     <td>✔ Clean Code</td>
  </tr>
  <tr>
-    <td>✔ HTML5</td>
-    <td>✔ CSS3</td>
+    <td>✔ HTML</td>
+    <td>✔ CSS/SCSS</td>
  </tr>
  <tr>
     <td>✔ JavaScript</td>
-    <td>✔ SCSS</td>
- </tr>
- <tr>
-    <th colspan="2">✔ BEM Methodology</th>
+    <td>✔ BEM Methodology</td>
  </tr>
 </table>
 
