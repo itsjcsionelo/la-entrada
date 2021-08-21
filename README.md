@@ -17,7 +17,23 @@
     <td>✔ Modern CSS Reset</td>
  </tr>
  <tr>
-    <th colspan="2">✔ Icons</th>
+    <td>✔ Icons</td>
+    <td>✔ Fully Responsive</td>
+ </tr>
+ <tr>
+    <td>✔ Animations / Transitions</td>
+    <td>✔ Clean Code</td>
+ </tr>
+ <tr>
+    <td>✔ HTML5</td>
+    <td>✔ CSS3</td>
+ </tr>
+ <tr>
+    <td>✔ JavaScript</td>
+    <td>✔ SCSS</td>
+ </tr>
+ <tr>
+    <th colspan="2">✔ BEM Methodology</th>
  </tr>
 </table>
 
