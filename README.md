@@ -34,4 +34,4 @@
  </tr>
 </table>
 
-Preview: https://ultraclean.netlify.app/
+Preview: https://laentrada.netlify.app/
